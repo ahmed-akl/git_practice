@@ -1,0 +1,8 @@
+def is_even(number):
+	"""Return whether number is even."""
+	return number % 2 == 0
+
+
+if __name__ == "__main__":
+	for value in range(5):
+		print(f"{value}: {'even' if is_even(value) else 'odd'}")
